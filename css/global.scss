@@ -1,0 +1,13 @@
+body, html{margin: 0;padding: 0;font-family: 'Roboto', sans-serif;};
+html{height: 100%; width: 100vw};
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$primary : #ea222d;
+$white : #fff;
+$shadowcolor :#555555;
+
+@import "header";
+@import "title";
+@import "character";
+@import "program";
+@import "contact";

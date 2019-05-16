@@ -1,0 +1,116 @@
+.character {
+    padding: 0 80px;
+    width: clac(100% -160px);
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    h2 {
+        margin-top: 35px;
+        padding: 0;
+        width: 100%;
+        color: $primary;
+        text-align: center;
+
+        font-size: 2rem;
+    }
+
+    >*{
+        width: 20%;
+        margin-right: 55px;
+        padding-top: 100px;
+    }
+
+    h3{
+        text-align: center
+    }
+
+    p{
+        text-align: center;
+        height: 85px;
+    }
+}
+.iron-man {
+    background: url(../img/iron-man.png) no-repeat;
+    background-size: 85px;
+    background-position-x : 80px;
+    background-position-y: 25px;
+
+    button {
+        margin-left: 80px;  
+        width: 80px;
+        height: 40px;
+
+        color: $primary;
+
+        border: 2px solid $primary;
+        border-radius: 5px;
+        
+        font-size: 1.2em;
+
+        cursor: pointer;
+    }
+}
+.spiderman {
+    background: url(../img/spiderman.png) no-repeat;
+    background-size: 85px;
+    background-position-x : 80px;
+    background-position-y: 25px;
+
+    button {
+        margin-left: 80px;  
+        width: 80px;
+        height: 40px;
+
+        color: $primary;
+
+        border: 2px solid $primary;
+        border-radius: 5px;
+        
+        font-size: 1.2em;
+
+        cursor: pointer;
+    }
+}
+.captain-america {
+    background: url(../img/captain-america.png) no-repeat;
+    background-size: 85px;
+    background-position-x : 80px;
+    background-position-y: 25px;
+
+    button {
+        margin-left: 80px;  
+        width: 80px;
+        height: 40px;
+
+        color: $primary;
+
+        border: 2px solid $primary;
+        border-radius: 5px;
+        
+        font-size: 1.2em;
+
+        cursor: pointer;
+    }
+}
+.thor {
+    background: url(../img/thor.png) no-repeat;
+    background-size: 85px;
+    background-position-x : 80px;
+    background-position-y: 25px;
+
+    button {
+        margin-left: 80px;  
+        width: 80px;
+        height: 40px;
+
+        color: $primary;
+
+        border: 2px solid $primary;
+        border-radius: 5px;
+        
+        font-size: 1.2em;
+        
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,43 @@
+header{
+    width: calc(100% -80px);
+    height: 50px;
+
+    background-color: $primary;
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+
+    .logo{
+        padding: 10px 80px;
+
+        font-size: 1.1em;
+        font-weight: 900;
+
+        cursor: pointer;
+
+        strong{
+            font-size: 1.5em
+        }
+    }
+
+    ul {
+        margin-right: 80px;
+
+        li{
+            float: left;
+            margin-right: 15px;
+            list-style: none;
+            cursor: pointer;
+
+        }
+        :first-child, :last-child{
+            border-top: 2px solid;
+            border-bottom: 2px solid;
+
+        }
+        :nth-child(2){
+            margin-top: 3px
+        }
+    }
+}

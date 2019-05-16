@@ -1,0 +1,100 @@
+.program {
+    width: calc(100% -80px);
+    height: 100%;
+    background: linear-gradient(to bottom, $primary 45%, transparent), url(/vid/avengers.mp4);
+    padding-left: 80px;
+    position: relative;
+
+    h2 {
+        color: $white;
+        padding-top: 45px;
+
+        font-size: 2rem;
+        font-weight: 700;
+
+        text-align: center
+    }
+
+    .trailers {
+        margin-top: 80px;
+        height: 200px;
+        width: calc(100% -80px);
+    
+        .ironmantrailer {
+            width: 49%;
+            float: left;
+            .vid{
+                width: 279px;
+                height: 153px;
+                float: left;
+                .video{width: 100%;height: 100%;}
+            }
+            h4 {
+                color: $white;
+                margin-left: 20px;
+                display: inline-block;
+                width: 100px;
+                height: 20px;
+            }
+            p {
+                color: $white;
+                width: 273px;
+                display: inline-block;
+                margin-left: 20px;
+            }
+        }
+
+        .captainamericatrailer {
+            width: 43%;
+            float: right;
+
+            padding-right: 80px;
+            .vid{
+                width: 279px;
+                height: 153px;
+                float: left;
+                .video{width: 100%;height: 100%;}
+            }
+            h4 {
+                color: $white;
+                margin-left: 20px;
+                display: inline-block;
+                width: 140px;
+                height: 20px;
+            }
+            p {
+                color: $white;
+                width: 253px;
+                display: inline-block;
+                margin-left: 20px;
+            } 
+        }
+    }
+    table {
+        width: 750px;
+        height: 180px;
+        margin: 0 auto;
+        font-weight: 200;
+
+        border-collapse: collapse;
+        border: 5px solid $primary;
+
+        background-color: $white;
+
+        thead {
+            border-bottom: 1px solid $primary
+        }
+    }
+}
+
+.videobckg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    video {
+        width: 100vw;
+    }
+}
+

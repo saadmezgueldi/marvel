@@ -1,0 +1,40 @@
+.title {
+    width: calc(100% -80px);
+    height: 400px;
+
+    padding: 10px 80px;
+
+    background: linear-gradient(to bottom, transparent, white), url(../img/texture.jpeg);
+    background-size: cover;
+    z-index: -1;
+
+    h1{
+        margin-top: 100px;
+        margin-bottom: 0;
+        padding: 6px;
+        width: 800px;
+        height: 60px;
+
+        font-size: 3.2rem;
+
+        color: $primary;
+        background-color: $white;
+
+        box-shadow: 10px 10px 50px $shadowcolor;
+    }
+
+    p{
+        margin: 0;
+        width: 600px;
+        height: 25px;
+        padding: 6px;
+
+        font-size: 1.2rem;
+
+        background-color: $primary;
+        color: $white;
+
+        box-shadow: 10px 10px 50px $shadowcolor;
+
+    }
+}
